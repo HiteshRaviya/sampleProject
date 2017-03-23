@@ -94,7 +94,6 @@ import java.util.List;
  */
 public class MainActivity extends Activity implements IabBroadcastListener,
         OnClickListener {
-    // Debug tag, for logging
     static final String TAG = "TrivialDrive";
 
     // Does the user have the premium upgrade?
