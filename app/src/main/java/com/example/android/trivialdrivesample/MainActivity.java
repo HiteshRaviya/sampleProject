@@ -187,7 +187,7 @@ public class MainActivity extends Activity implements IabBroadcastListener,
 
                 if (!result.isSuccess()) {
                     // Oh noes, there was a problem.
-                    complain("Problem setting up in-app billing: " + result);
+                    complain("Problem setting up in-app billing in main activity: " + result);
                     return;
                 }
 
